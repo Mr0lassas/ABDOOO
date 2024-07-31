@@ -8,8 +8,7 @@ import time
 import json
 app = Flask('')
 
-bot = telebot.
-TeleBot("7277003019:AAHdUHMhoPfvPJLc03CP5jvLqqUeFiswA4s")
+bot = telebot.TeleBot("7277003019:AAHdUHMhoPfvPJLc03CP5jvLqqUeFiswA4s")
 
 @bot.message_handler(commands=["start"])
 def startt(message):
